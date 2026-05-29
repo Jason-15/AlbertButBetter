@@ -36,7 +36,7 @@ If you're cloning from GitHub:
 
 ```
 git clone <repo-url>
-cd course-decluster
+cd AlberButBetter
 ```
 
 ---
