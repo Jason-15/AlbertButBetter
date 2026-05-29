@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Planner — NYU Stern</title>
+  <link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+<div id="app">
+
+  <header>
+    <div>
+      <h1>Course Planner</h1>
+    </div>
+    <span class="subtitle" id="header-subtitle">NYU Stern MBA</span>
+    <div class="spacer"></div>
+    <nav class="view-tabs">
+      <button class="view-tab active" data-view="planner">Planner</button>
+      <button class="view-tab" data-view="schedule">Schedule</button>
+    </nav>
+    <a class="logout" href="/auth/logout">Sign out</a>
+  </header>
+
+  <!-- ── Planner view ───────────────────────────────── -->
+  <div id="view-planner" class="view-panel active">
+
+    <!-- Left: Course Browser -->
+    <section id="browser">
+
+      <!-- Semester tabs -->
+      <div id="semester-tabs">
+        <button class="sem-tab" data-sem="summer_2026">Summer 2026</button>
+        <button class="sem-tab active" data-sem="fall_2026">Fall 2026</button>
+        <button class="sem-tab" data-sem="spring_2027">Spring 2027</button>
+      </div>
+
+      <!-- Summer panel (completed courses + spec assignment) -->
+      <div id="browser-summer">
+        <div id="summer-completed-list"></div>
+      </div>
+
+      <!-- Shared course browser (Fall + Spring electives use this) -->
+      <div id="browser-course-view">
+        <!-- Spring core bar — only visible when spring tab active -->
+        <div id="spring-core-bar">
+          <div id="spring-core-section"></div>
+        </div>
+
+        <div id="filters">
+          <input id="search" type="search" placeholder="Search courses…">
+
+          <div class="filter-group">
+            <span class="filter-label">Days</span>
+            <button class="day-btn" data-day="Mon">M</button>
+            <button class="day-btn" data-day="Tue">T</button>
+            <button class="day-btn" data-day="Wed">W</button>
+            <button class="day-btn" data-day="Thu">Th</button>
+            <button class="day-btn" data-day="Fri">F</button>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">Session</span>
+            <select id="filter-session" class="filter-select">
+              <option value="">All sessions</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">Spec</span>
+            <select id="filter-spec" class="filter-select">
+              <option value="">All specializations</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">Credits</span>
+            <button class="credit-btn" data-credits="1.5">1.5</button>
+            <button class="credit-btn" data-credits="3">3</button>
+          </div>
+
+          <button class="toggle-btn" id="toggle-nope">Show Not Interested</button>
+        </div>
+
+        <div id="results-count"></div>
+        <div id="course-list"></div>
+      </div>
+
+    </section>
+
+    <!-- Right: Planning Board -->
+    <aside id="sidebar">
+      <div class="panel" id="plan-panel">
+        <p class="panel-title">My Plan</p>
+        <div id="plan-list"><p class="empty-hint">Add courses to start planning.</p></div>
+      </div>
+
+      <div id="spec-tracker">
+        <p class="panel-title">Specialization Tracker</p>
+        <div id="spec-rows"></div>
+      </div>
+
+      <div id="stats">
+        <div class="stat">
+          <span class="stat-value" id="stat-credits">0</span>
+          <span class="stat-label">credits planned</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-courses">0</span>
+          <span class="stat-label">courses</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-specs">0</span>
+          <span class="stat-label">specs complete</span>
+        </div>
+      </div>
+    </aside>
+
+  </div><!-- /view-planner -->
+
+  <!-- ── Schedule view ──────────────────────────────── -->
+  <div id="view-schedule" class="view-panel">
+    <div id="sched-sem-tabs">
+      <button class="sched-sem-tab active" data-sem="fall_2026">Fall 2026</button>
+      <button class="sched-sem-tab" data-sem="spring_2027">Spring 2027</button>
+    </div>
+    <div id="sched-stats"></div>
+    <div id="sched-calendar-wrap">
+      <div id="sched-calendar"></div>
+    </div>
+    <div id="sched-legend"></div>
+    <div id="sched-phases-wrap">
+      <p class="panel-title" style="margin:0 0 .5rem">Semester phases</p>
+      <div id="sched-phases"></div>
+      <p id="sched-phases-note"></p>
+    </div>
+  </div><!-- /view-schedule -->
+
+</div><!-- /app -->
+
+<script src="/app/app.js"></script>
+</body>
+</html>

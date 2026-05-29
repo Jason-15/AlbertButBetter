@@ -1,0 +1,2 @@
+Frame 0: https://sis.portal.nyu.edu/psp/ihprod/EMPLOYEE/EMPL/h/?tab=IS_SSS_TAB&jsconfig=IS_ED_SSS_SUMMARYLnk | 2152 chars text | saved debug_frame_0.html
+Frame 1: https://sis.nyu.edu/psc/csprod/EMPLOYEE/SA/c/NYU_SR.NYU_LOT.GBL?Page=NYU_LOT_MDSTART&Action=U&ForceSearch=Y&ExactKeys=Y&EMPLID=15804602&PTPN_POPUP_WINDOW=N | 38469 chars text | saved debug_frame_1.html

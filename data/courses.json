@@ -1,0 +1,3591 @@
+{
+  "scraped_at": "2026-05-29T11:07:01.932175",
+  "specializations": [
+    "Accounting",
+    "Artificial Intelligence",
+    "Banking",
+    "Brand Management",
+    "Business Analytics",
+    "Corporate Finance",
+    "Digital Marketing",
+    "Economics",
+    "Entertainment, Media & Technology",
+    "Entrepreneurship & Innovation",
+    "FinTech",
+    "Finance",
+    "Financial Instruments & Markets",
+    "Financial Systems & Analytics",
+    "Global Business",
+    "Healthcare",
+    "Law & Business",
+    "Leadership and Change Management",
+    "Luxury Marketing",
+    "Management",
+    "Management of Technology & Operations",
+    "Marketing",
+    "Quantitative Finance",
+    "Real Estate",
+    "Social Innovation and Impact",
+    "Strategy",
+    "Supply Chain Management & Global Sourcing",
+    "Sustainable Business and Innovation",
+    "Tech Product Management"
+  ],
+  "courses": [
+    {
+      "code": "BSPA-GB.2390.01",
+      "title": "AI & Governance",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "13:30",
+          "end_time": "14:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Barnes, L",
+        "Instructor Posner, M"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "INTA-GB.3323.F2",
+      "title": "Tech Solutions",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/03/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Goldschmidt, C",
+        "Instructor Suiter, W"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Entrepreneurship & Innovation",
+        "Management of Technology & Operations",
+        "Strategy",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2332.01",
+      "title": "Managing a High Tech Company: The CEO perspective",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/03/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Rim, J"
+      ],
+      "specializations": [
+        "Entertainment, Media & Technology",
+        "Management",
+        "Management of Technology & Operations",
+        "Strategy",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2191.10",
+      "title": "Tech Product Management",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/17/2026",
+      "end_date": "10/22/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Breen, A"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Management",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.2160.F2",
+      "title": "Software Engineering with AI",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/27/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Grewell, C"
+      ],
+      "specializations": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "code": "TECH-GB.2336.F2",
+      "title": "Data Science and AI for Business: Technical",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "10:30",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Volinsky, C"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Brand Management",
+        "Business Analytics",
+        "Digital Marketing",
+        "FinTech",
+        "Financial Systems & Analytics",
+        "Healthcare",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "ACCT-GB.2303.01",
+      "title": "An Integrated Approach to Financial Statement Analysis",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "13:30",
+          "end_time": "14:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Yeo, J"
+      ],
+      "specializations": [
+        "Accounting"
+      ]
+    },
+    {
+      "code": "ACCT-GB.3304.10",
+      "title": "Modeling Financial Statements",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Gode, D"
+      ],
+      "specializations": [
+        "Accounting",
+        "Financial Systems & Analytics"
+      ]
+    },
+    {
+      "code": "ACCT-GB.3321.10",
+      "title": "Analysis of Financial Institutions",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Gode, D",
+        "Instructor Ryan, S"
+      ],
+      "specializations": [
+        "Accounting"
+      ]
+    },
+    {
+      "code": "ACCT-GB.3344.10",
+      "title": "Modeling Mergers, Acquisitions, and Buyouts",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Gode, D"
+      ],
+      "specializations": [
+        "Accounting",
+        "Financial Systems & Analytics"
+      ]
+    },
+    {
+      "code": "BSPA-GB.2305.01",
+      "title": "Sustainability for Competitive Advantage",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "15:00",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Taylor, A"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Strategy",
+        "Supply Chain Management & Global Sourcing",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "BSPA-GB.2305.10",
+      "title": "Sustainability for Competitive Advantage",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Taylor, A"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Strategy",
+        "Supply Chain Management & Global Sourcing",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "BSPA-GB.2306.01",
+      "title": "Social Entrepreneurship in Sustainable Food Business",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/03/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Taparia, H"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entrepreneurship & Innovation",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "BSPA-GB.2308.10",
+      "title": "Driving Market Solutions for Clean Energy",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Berlin, J",
+        "Instructor Gowrishankar, V"
+      ],
+      "specializations": [
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "BSPA-GB.2314.01",
+      "title": "Business Law",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "15:00",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Hendler, R"
+      ],
+      "specializations": [
+        "Law & Business"
+      ]
+    },
+    {
+      "code": "BSPA-GB.3110.01",
+      "title": "Work, Wisdom, and Happiness",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/08/2026",
+      "end_date": "10/20/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Haidt, J"
+      ],
+      "specializations": [
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "BSPA-GB.3305.01",
+      "title": "Global Markets, Human Rights, and the Press",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Posner, M"
+      ],
+      "specializations": [
+        "Global Business",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "BSPA-GB.3362.10",
+      "title": "Corporate Turnarounds and Leadership",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "17:30",
+          "end_time": "20:30"
+        }
+      ],
+      "instructors": [
+        "Instructor Brenner, K"
+      ],
+      "specializations": [
+        "Law & Business",
+        "Leadership and Change Management",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "ECON-GB.2110.10",
+      "title": "Health and Medical Care Business",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "11/02/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Andrzejewski, S"
+      ],
+      "specializations": [
+        "Economics",
+        "Healthcare",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "ECON-GB.2113.10",
+      "title": "Value-driven Health Care",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/14/2026",
+      "end_date": "10/26/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Desai, S"
+      ],
+      "specializations": [
+        "Economics",
+        "Healthcare"
+      ]
+    },
+    {
+      "code": "ECON-GB.2317.10",
+      "title": "The Making of Economic Policy in the White House",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Bowmaker, S"
+      ],
+      "specializations": [
+        "Economics",
+        "Global Business"
+      ]
+    },
+    {
+      "code": "FINC-GB.2170.10",
+      "title": "Private Wealth Management and Family Offices",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/16/2026",
+      "end_date": "10/21/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Dick, S"
+      ],
+      "specializations": [
+        "Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.2302.01",
+      "title": "Corporate Finance",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Spring Weekend",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "15:00",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Marciano, A"
+      ],
+      "specializations": [
+        "Corporate Finance",
+        "Finance",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.2302.S1",
+      "title": "Corporate Finance",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/19/2026",
+      "end_date": "12/12/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Spring Weekend",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sat"
+          ],
+          "start_time": "09:00",
+          "end_time": "12:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Schmeits, A"
+      ],
+      "specializations": [
+        "Corporate Finance",
+        "Finance",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.2314.01",
+      "title": "History of Financial Crises",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Koudijs, P"
+      ],
+      "specializations": [
+        "Economics",
+        "Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.2329.10",
+      "title": "Real Estate Primary Markets",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Bhasin, M"
+      ],
+      "specializations": [
+        "Corporate Finance",
+        "Finance",
+        "Quantitative Finance",
+        "Real Estate"
+      ]
+    },
+    {
+      "code": "FINC-GB.2334.10",
+      "title": "The Financial Services Industry",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Abut, D"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.2341.10",
+      "title": "Real Estate Investment Strategy",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Bedi, V"
+      ],
+      "specializations": [
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance",
+        "Real Estate"
+      ]
+    },
+    {
+      "code": "FINC-GB.2345.01",
+      "title": "Cases in Financial Management",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "13:30",
+          "end_time": "14:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Marciano, A"
+      ],
+      "specializations": [
+        "Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.2347.10",
+      "title": "Climate Finance: Climate Risks and Opportunities for Leaders in Business and Society",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Stroebel, J"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Economics",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Global Business",
+        "Quantitative Finance",
+        "Real Estate",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "FINC-GB.2382.10",
+      "title": "Global Value Investing",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Brochin, F",
+        "Instructor Rosenwald, J",
+        "Instructor Sherman, D"
+      ],
+      "specializations": [
+        "Corporate Finance",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3125.01",
+      "title": "M&A: Investment Banker Perspectives",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/22/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "15:00",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Ashany, E"
+      ],
+      "specializations": [
+        "Banking",
+        "Entertainment, Media & Technology",
+        "Finance",
+        "Quantitative Finance",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "FINC-GB.3146.10",
+      "title": "Activist Investing",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/16/2026",
+      "end_date": "10/21/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Litt, J"
+      ],
+      "specializations": [
+        "Corporate Finance",
+        "Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3196.01",
+      "title": "Mergers and Acquisitions",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/03/2026",
+      "end_date": "10/15/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Eve",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "13:30",
+          "end_time": "14:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Amihud, Y"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Law & Business",
+        "Quantitative Finance",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "FINC-GB.3198.01",
+      "title": "Bankruptcy and Reorganization",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/03/2026",
+      "end_date": "10/15/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "10:30",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Altman, E",
+        "Instructor Kronfeld, M"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Law & Business",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3319.01",
+      "title": "Advanced Restructuring and Distressed Investing",
+      "session": "Regular Academic Session",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "09:30",
+          "end_time": "10:45"
+        }
+      ],
+      "instructors": [
+        "Instructor Kamensky, D"
+      ],
+      "specializations": [
+        "Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3320.01",
+      "title": "Managing Investment Funds",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "12:00",
+          "end_time": "13:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Meli, J"
+      ],
+      "specializations": [
+        "Banking",
+        "Finance",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3324.10",
+      "title": "Digital Currency, Blockchains & the Future of the Financial Services Industry",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor D'Souza, I"
+      ],
+      "specializations": [
+        "FinTech",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Financial Systems & Analytics",
+        "Law & Business",
+        "Quantitative Finance",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "FINC-GB.3331.10",
+      "title": "Valuation",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Summer Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Schmeits, A"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3331.S1",
+      "title": "Valuation",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/19/2026",
+      "end_date": "12/12/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Summer Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sat"
+          ],
+          "start_time": "13:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Levine, R"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3333.10",
+      "title": "Debt Instruments and Markets",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Tuckman, B"
+      ],
+      "specializations": [
+        "Banking",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3335.01",
+      "title": "Futures and Options",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Brenner, M",
+        "Instructor Subrahmanyam, M"
+      ],
+      "specializations": [
+        "Banking",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3353.01",
+      "title": "Law and Management of Financial Services Businesses in a Changing Environment",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/08/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "14:15",
+          "end_time": "17:15"
+        }
+      ],
+      "instructors": [
+        "Instructor Roth, P",
+        "Instructor Zicklin, L"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Law & Business",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3361.S1",
+      "title": "Entrepreneurial Finance",
+      "session": "GB Weekend Minis/Intensives",
+      "credits": 3.0,
+      "start_date": "09/27/2026",
+      "end_date": "11/01/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Weekend",
+        "Spring Day",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sun"
+          ],
+          "start_time": "11:00",
+          "end_time": "16:00"
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "start_time": "11:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Okun, G"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Entrepreneurship & Innovation",
+        "Finance",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3365.01",
+      "title": "Private Equity Finance",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "10:30",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Schwed, G"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "FINC-GB.3372.01",
+      "title": "The Venture Capital Industry",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/03/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Wisniewski, T"
+      ],
+      "specializations": [
+        "Finance"
+      ]
+    },
+    {
+      "code": "FINC-GB.3373.10",
+      "title": "New Venture Financing",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor D'Souza, I"
+      ],
+      "specializations": [
+        "Banking",
+        "Corporate Finance",
+        "Entrepreneurship & Innovation",
+        "Finance",
+        "Financial Instruments & Markets",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "INTA-GB.2306.01",
+      "title": "Business Drivers: An Analytical Framework",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Gode, D"
+      ],
+      "specializations": [
+        "Accounting",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "INTA-GB.2380.10",
+      "title": "Foundations of Fintech",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Derose, K",
+        "Instructor Marti, C"
+      ],
+      "specializations": [
+        "FinTech",
+        "Finance",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "INTA-GB.3130.01",
+      "title": "Leadership Fellows",
+      "session": "GB Day Full Term",
+      "credits": 1.5,
+      "start_date": "09/25/2026",
+      "end_date": "12/04/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "16:00"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Hsieh, J"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "INTA-GB.3130.02",
+      "title": "Leadership Fellows",
+      "session": "GB Day Full Term",
+      "credits": 1.5,
+      "start_date": "09/18/2026",
+      "end_date": "11/20/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "16:00"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Blader, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "INTA-GB.3130.03",
+      "title": "Leadership Fellows",
+      "session": "GB Day Full Term",
+      "credits": 1.5,
+      "start_date": "09/18/2026",
+      "end_date": "12/04/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "16:00"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Steisel, P"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "INTA-GB.3130.S1",
+      "title": "Leadership Fellows",
+      "session": "GB Weekend Minis/Intensives",
+      "credits": 1.5,
+      "start_date": "10/02/2026",
+      "end_date": "10/04/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "17:00"
+        },
+        {
+          "days": [
+            "Sat",
+            "Sun"
+          ],
+          "start_time": "10:00",
+          "end_time": "18:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Shi, Y"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "INTA-GB.3130.S2",
+      "title": "Leadership Fellows",
+      "session": "GB Weekend Minis/Intensives",
+      "credits": 1.5,
+      "start_date": "11/13/2026",
+      "end_date": "11/15/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "10:00",
+          "end_time": "17:00"
+        },
+        {
+          "days": [
+            "Sat",
+            "Sun"
+          ],
+          "start_time": "10:00",
+          "end_time": "18:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Chugh, D"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "INTA-GB.3313.F1",
+      "title": "Luxury & Retail Digital Solutions",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Sasson, D"
+      ],
+      "specializations": [
+        "Luxury Marketing",
+        "Management of Technology & Operations"
+      ]
+    },
+    {
+      "code": "INTA-GB.3331.10",
+      "title": "Leadership Fellows",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Levinson, H"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MCOM-GB.3112.10",
+      "title": "Difficult Conversations",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/14/2026",
+      "end_date": "10/26/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Wynn, J"
+      ],
+      "specializations": [
+        "Management"
+      ]
+    },
+    {
+      "code": "MCOM-GB.3114.10",
+      "title": "Inclusive Conversations",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/27/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Wynn, J"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2107.10",
+      "title": "Becoming You: Crafting Your Authentic Career",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/27/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Welch, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2131.10",
+      "title": "Introduction to Entrepreneurship Through Acquisition & Search Funds",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/15/2026",
+      "end_date": "10/20/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Breen, A",
+        "Instructor Fan, K",
+        "Instructor Sirlin, C"
+      ],
+      "specializations": [
+        "Management",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2159.01",
+      "title": "Collaboration, Conflict, and Negotiation",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/08/2026",
+      "end_date": "10/20/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day",
+        "Spring Weekend",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Blader, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2159.02",
+      "title": "Collaboration, Conflict, and Negotiation",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/02/2026",
+      "end_date": "10/21/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day",
+        "Spring Weekend",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Blader, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2159.03",
+      "title": "Collaboration, Conflict, and Negotiation",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "11/09/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day",
+        "Spring Weekend",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Blader, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2159.04",
+      "title": "Collaboration, Conflict, and Negotiation",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "11/09/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day",
+        "Spring Weekend",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Blader, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2161.10",
+      "title": "Negotiating Complex Transactions With Executives and Lawyers",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/29/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Freeman, S"
+      ],
+      "specializations": [
+        "Entrepreneurship & Innovation",
+        "Law & Business",
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2164.01",
+      "title": "Advanced Topics in Negotiation: Corporate Deals, Decisions, and Diplomacy",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/27/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Freeman, S"
+      ],
+      "specializations": [
+        "Law & Business",
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2327.10",
+      "title": "Managing the Growing Company",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Summer",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Okun, G"
+      ],
+      "specializations": [
+        "Entrepreneurship & Innovation",
+        "Leadership and Change Management",
+        "Management",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2340.10",
+      "title": "Global Strategy",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Arikan, I"
+      ],
+      "specializations": [
+        "Global Business",
+        "Management",
+        "Strategy",
+        "Supply Chain Management & Global Sourcing"
+      ]
+    },
+    {
+      "code": "MGMT-GB.2353.10",
+      "title": "Managing Change",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Lechner, A"
+      ],
+      "specializations": [
+        "Healthcare",
+        "Leadership and Change Management",
+        "Management",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3151.S1",
+      "title": "Managerial Decision Making",
+      "session": "GB Weekend Minis/Intensives",
+      "credits": 1.5,
+      "start_date": "11/08/2026",
+      "end_date": "11/22/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Weekend",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sun"
+          ],
+          "start_time": "09:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Shapira, Z"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management",
+        "Management of Technology & Operations"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3159.01",
+      "title": "Leading in the Age of AI",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/02/2026",
+      "end_date": "10/26/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "15:00",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Lechner, A"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Leadership and Change Management",
+        "Management",
+        "Management of Technology & Operations"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3165.01",
+      "title": "Power and Professional Influence",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/08/2026",
+      "end_date": "10/20/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Blader, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3165.S1",
+      "title": "Power and Professional Influence",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/19/2026",
+      "end_date": "10/24/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Day",
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sat"
+          ],
+          "start_time": "14:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Howard, E"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3311.01",
+      "title": "Management with Purpose: Strategies for New and Aspiring Managers",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/08/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Welch, S"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3321.01",
+      "title": "Developing Managerial Skills",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/03/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Chugh, D"
+      ],
+      "specializations": [
+        "Leadership and Change Management",
+        "Management"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3335.10",
+      "title": "Foundations of Entrepreneurship",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve",
+        "Spring Weekend",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Okun, G"
+      ],
+      "specializations": [
+        "Entrepreneurship & Innovation",
+        "Management",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MGMT-GB.3339.01",
+      "title": "Endless Frontier Labs",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/03/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Day"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Hegde, D"
+      ],
+      "specializations": [
+        "Entrepreneurship & Innovation",
+        "Healthcare",
+        "Management",
+        "Strategy",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2119.10",
+      "title": "Entertainment and Media Industries",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/14/2026",
+      "end_date": "10/26/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Hardart, P"
+      ],
+      "specializations": [
+        "Entertainment, Media & Technology",
+        "Marketing",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2119.11",
+      "title": "Entertainment and Media Industries",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "11/02/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Hardart, P"
+      ],
+      "specializations": [
+        "Entertainment, Media & Technology",
+        "Marketing",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2123.10",
+      "title": "Deal Making and Business Development in Media",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "11/02/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Walker, J"
+      ],
+      "specializations": [
+        "Entertainment, Media & Technology",
+        "Marketing"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2128.10",
+      "title": "Consultative Selling",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/29/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Krawitz, J"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Luxury Marketing",
+        "Marketing"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2133.01",
+      "title": "Digitalization and Society: The Fifth Industrial Revolution",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/27/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Krushel, K"
+      ],
+      "specializations": [
+        "Digital Marketing",
+        "Entertainment, Media & Technology",
+        "Marketing",
+        "Strategy",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2134.10",
+      "title": "Art Through Technological Innovation",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/15/2026",
+      "end_date": "10/20/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Smith, T"
+      ],
+      "specializations": [
+        "Entertainment, Media & Technology"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2175.10",
+      "title": "Building and Innovating in Omnichannel Marketing",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/16/2026",
+      "end_date": "10/21/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Winter Intensive"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Shanley, L"
+      ],
+      "specializations": [
+        "Marketing"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2191.11",
+      "title": "Tech Product Management",
+      "session": "GB Evening 1st Half",
+      "credits": 1.5,
+      "start_date": "09/17/2026",
+      "end_date": "10/22/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Hester-Reilly, H"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Management",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2193.10",
+      "title": "Tech Product Management II",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/29/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Breen, A"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Management",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2323.01",
+      "title": "Marketing and Sustainability: Driving Value",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Kronthal, R"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Marketing",
+        "Sustainable Business and Innovation"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2344.10",
+      "title": "Data Driven Decision Making: Managerial",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Singh, V"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Business Analytics",
+        "Digital Marketing",
+        "Management",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2347.01",
+      "title": "Consumer Behavior",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Watson, J"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Luxury Marketing",
+        "Marketing"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2353.S1",
+      "title": "Pricing",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/19/2026",
+      "end_date": "12/12/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Weekend",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sat"
+          ],
+          "start_time": "13:00",
+          "end_time": "16:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Eberhardt, J"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Luxury Marketing",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2355.F1",
+      "title": "Retail Strategy & Analytics",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Hanlon, J"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "Luxury Marketing",
+        "Marketing",
+        "Strategy"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2368.10",
+      "title": "Consulting Lab: Branding & Innovation",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Gormley, F",
+        "Instructor Taylor, A"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Luxury Marketing",
+        "Marketing"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2370.10",
+      "title": "New Products",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Greenwald, M"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Entrepreneurship & Innovation",
+        "Marketing",
+        "Strategy",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "MKTG-GB.2392.10",
+      "title": "Strategic Foresight and Predicting the Future of Technology",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Webb, A"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Strategy",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "OPMG-GB.2308.F1",
+      "title": "Retail Operations & Supply Chain Management",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "15:00",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Riccio, L"
+      ],
+      "specializations": [
+        "Luxury Marketing",
+        "Management of Technology & Operations",
+        "Supply Chain Management & Global Sourcing"
+      ]
+    },
+    {
+      "code": "OPMG-GB.2313.D1",
+      "title": "Operations in Entertainment: Las Vegas",
+      "session": "GB Exclude Term Load",
+      "credits": 3.0,
+      "start_date": "12/04/2026",
+      "end_date": "12/04/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Chernoff, H"
+      ],
+      "specializations": [
+        "Entertainment, Media & Technology",
+        "Management of Technology & Operations",
+        "Real Estate",
+        "Supply Chain Management & Global Sourcing"
+      ]
+    },
+    {
+      "code": "OPMG-GB.2350.01",
+      "title": "Decision Models and Analytics",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/14/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start_time": "10:30",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Zhang, D"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "FinTech",
+        "Financial Systems & Analytics",
+        "Management",
+        "Management of Technology & Operations",
+        "Quantitative Finance",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "OPMG-GB.2354.10",
+      "title": "Decision Analytics for Sports",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Riccio, L"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "Entertainment, Media & Technology"
+      ]
+    },
+    {
+      "code": "OPMG-GB.2360.10",
+      "title": "Real Estate Development and Entrepreneurship",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/15/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Chernoff, H"
+      ],
+      "specializations": [
+        "Financial Systems & Analytics",
+        "Management of Technology & Operations",
+        "Real Estate",
+        "Strategy",
+        "Supply Chain Management & Global Sourcing"
+      ]
+    },
+    {
+      "code": "OPMG-GB.3110.01",
+      "title": "Foundations of AI Agents",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/27/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "start_time": "13:30",
+          "end_time": "16:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Mayya, R"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Management of Technology & Operations",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "STAT-GB.2301.10",
+      "title": "Regression and Multivariate Data Analysis",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Abramowitz, S"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "Financial Systems & Analytics",
+        "Quantitative Finance",
+        "Supply Chain Management & Global Sourcing"
+      ]
+    },
+    {
+      "code": "STAT-GB.2302.10",
+      "title": "Forecasting Time Series Data",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Hurvich, C"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "Financial Systems & Analytics",
+        "Quantitative Finance"
+      ]
+    },
+    {
+      "code": "TECH-GB.2135.01",
+      "title": "Programming in Python",
+      "session": "GB Day 1st Half",
+      "credits": 1.5,
+      "start_date": "09/02/2026",
+      "end_date": "10/21/2026",
+      "instruction_mode": "Blended (Online & In-Person)",
+      "last_offered": [
+        "Fall Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Sosulski, K"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Financial Systems & Analytics",
+        "Management of Technology & Operations",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.2148.01",
+      "title": "Dealing with Data",
+      "session": "GB Day 2nd Half",
+      "credits": 1.5,
+      "start_date": "10/22/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:20"
+        }
+      ],
+      "instructors": [
+        "Instructor Sosulski, K"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "FinTech",
+        "Financial Systems & Analytics",
+        "Management of Technology & Operations",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.2149.10",
+      "title": "Data Management and Strategy: Building a Growth-Driven Data Strategy",
+      "session": "GB Evening 2nd Half",
+      "credits": 1.5,
+      "start_date": "11/02/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Bardmesser, J"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "Management of Technology & Operations",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.2318.10",
+      "title": "Digital Strategy in the Age of AI",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Eve",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [],
+      "specializations": [
+        "Digital Marketing",
+        "Entertainment, Media & Technology",
+        "FinTech",
+        "Management of Technology & Operations",
+        "Strategy",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.2335.S1",
+      "title": "Programming in Python and Fundamentals of Software Development",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/19/2026",
+      "end_date": "12/12/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Weekend",
+        "Summer"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Sat"
+          ],
+          "start_time": "10:00",
+          "end_time": "12:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Sosulski, K"
+      ],
+      "specializations": [
+        "Brand Management",
+        "Financial Systems & Analytics",
+        "Management of Technology & Operations",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.2336.10",
+      "title": "Data Science and AI for Business: Technical",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/16/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "Online",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Volinsky, C"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Brand Management",
+        "Business Analytics",
+        "Digital Marketing",
+        "FinTech",
+        "Financial Systems & Analytics",
+        "Healthcare",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.3306.01",
+      "title": "Data Visualization",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/03/2026",
+      "end_date": "12/08/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start_time": "10:30",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Sosulski, K"
+      ],
+      "specializations": [
+        "Business Analytics",
+        "Management",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.3332.01",
+      "title": "Introduction to AI & Its Applications in Business",
+      "session": "GB Day Full Term",
+      "credits": 3.0,
+      "start_date": "09/02/2026",
+      "end_date": "12/09/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Day",
+        "Fall Eve",
+        "Spring Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "start_time": "09:00",
+          "end_time": "11:50"
+        }
+      ],
+      "instructors": [
+        "Instructor Tuzhilin, A"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Business Analytics",
+        "FinTech",
+        "Management of Technology & Operations"
+      ]
+    },
+    {
+      "code": "TECH-GB.3336.10",
+      "title": "Data Science and AI for Business: Managerial",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/14/2026",
+      "end_date": "12/07/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve",
+        "Spring Day",
+        "Spring Weekend"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Reisz, C"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Brand Management",
+        "Business Analytics",
+        "Digital Marketing",
+        "FinTech",
+        "Financial Systems & Analytics",
+        "Healthcare",
+        "Management of Technology & Operations",
+        "Marketing",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    },
+    {
+      "code": "TECH-GB.3362.10",
+      "title": "Emerging Technology and Business Innovation",
+      "session": "GB Evening Full Term",
+      "credits": 3.0,
+      "start_date": "09/17/2026",
+      "end_date": "12/10/2026",
+      "instruction_mode": "In-Person",
+      "last_offered": [
+        "Fall Eve"
+      ],
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00"
+        }
+      ],
+      "instructors": [
+        "Instructor Grewell, C"
+      ],
+      "specializations": [
+        "Artificial Intelligence",
+        "Brand Management",
+        "Entertainment, Media & Technology",
+        "Entrepreneurship & Innovation",
+        "Management of Technology & Operations",
+        "Strategy",
+        "Supply Chain Management & Global Sourcing",
+        "Tech Product Management"
+      ]
+    }
+  ]
+}

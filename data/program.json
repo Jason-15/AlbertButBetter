@@ -1,0 +1,105 @@
+{
+  "semesters": [
+    {
+      "id": "fall_2026",
+      "label": "Fall 2026",
+      "credit_target": 15,
+      "required_prefixes": ["TECH-GB.2160", "TECH-GB.2336", "INTA-GB.3323"],
+      "seed_codes": ["TECH-GB.2160.F2", "TECH-GB.2336.F2", "INTA-GB.3323.F2"]
+    },
+    {
+      "id": "spring_2027",
+      "label": "Spring 2027",
+      "credit_target": 17.5,
+      "required_prefixes": [],
+      "seed_codes": [],
+      "core_courses": [
+        {"code": "INTA-GB.3322", "title": "Tech Immersion", "credits": 3.0, "note": "Winter intensive (Jan)", "specializations": []},
+        {"code": "COR2-GB.3151", "title": "Professional Responsibility in Tech", "credits": 1.5, "note": "", "specializations": []},
+        {"code": "CSCI-GA.2820", "title": "DevOps and Agile Methodologies", "credits": 3.0, "note": "", "specializations": []},
+        {"code": "INTA-GB.2000", "title": "Professional Practicum", "credits": 1.0, "note": "", "specializations": []},
+        {"code": "OPMG-GB.3110", "title": "Foundations of AI Agents", "credits": 1.5, "note": "", "specializations": ["Artificial Intelligence"]},
+        {"code": "COR1-GB.2114", "title": "Operations", "credits": 1.5, "note": "", "specializations": []}
+      ]
+    }
+  ],
+  "prior_courses": [
+    {
+      "code": "COR1-GB.1102",
+      "title": "Leadership",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "COR1-GB.1103",
+      "title": "Economics",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "COR1-GB.2101",
+      "title": "Strategy",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "COR1-GB.2105",
+      "title": "Communication",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "COR1-GB.2110",
+      "title": "Marketing",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "COR1-GB.2206",
+      "title": "Accounting",
+      "credits": 2.25,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "COR1-GB.2222",
+      "title": "Finance",
+      "credits": 2.25,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "INTA-GB.3321",
+      "title": "NYC Immersion: Tech",
+      "credits": 3.0,
+      "semester": "summer_2026",
+      "specializations": []
+    },
+    {
+      "code": "MGMT-GB.2129",
+      "title": "Entrepreneurship",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": ["Entrepreneurship & Innovation", "Management", "Strategy"]
+    },
+    {
+      "code": "STAT-GB.2160",
+      "title": "Experimentation and Causal Inference",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": ["Business Analytics", "Management of Technology & Operations", "Tech Product Management"]
+    },
+    {
+      "code": "TECH-GB.2147",
+      "title": "Databases for Business Analytics",
+      "credits": 1.5,
+      "semester": "summer_2026",
+      "specializations": ["Business Analytics", "Management of Technology & Operations", "Tech Product Management", "FinTech", "Financial Systems & Analytics"]
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --surface2: #263045;
+  --border: #334155;
+  --text: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --green: #22c55e;
+  --amber: #f59e0b;
+  --red: #ef4444;
+  --radius: 10px;
+
+  /* Spec colors — cycling palette */
+  --c0: #6366f1; --c1: #0ea5e9; --c2: #10b981; --c3: #f59e0b;
+  --c4: #ec4899; --c5: #8b5cf6; --c6: #14b8a6; --c7: #f97316;
+  --c8: #06b6d4; --c9: #a855f7; --c10: #84cc16; --c11: #ef4444;
+  --c12: #3b82f6; --c13: #d946ef; --c14: #22d3ee; --c15: #fb923c;
+}
+
+html, body {
+  margin: 0; padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ── Layout ───────────────────────────────────── */
+#app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* view panels */
+.view-panel { display: none; overflow: hidden; }
+.view-panel.active { display: contents; }
+
+#view-planner.active {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  overflow: hidden;
+}
+
+#view-schedule.active {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 1.25rem;
+  gap: 1.25rem;
+}
+
+/* view tabs */
+.view-tabs {
+  display: flex;
+  gap: 0.25rem;
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 3px;
+}
+.view-tab {
+  padding: 0.3rem 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.view-tab.active, .view-tab:hover {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+header {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+header .subtitle {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+header .spacer { flex: 1; }
+
+header a.logout {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-decoration: none;
+}
+header a.logout:hover { color: var(--text-muted); }
+
+/* ── Semester tabs (inside browser) ──────────── */
+#semester-tabs {
+  display: flex;
+  gap: 0;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 1rem;
+  flex-shrink: 0;
+}
+.sem-tab {
+  padding: 0.55rem 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.12s, border-color 0.12s;
+  margin-bottom: -1px;
+  outline: none;
+}
+.sem-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.sem-tab:hover:not(.active) { color: var(--text-muted); }
+
+/* Schedule view semester tabs */
+#sched-sem-tabs {
+  display: flex;
+  gap: 0.25rem;
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 3px;
+  align-self: flex-start;
+}
+.sched-sem-tab {
+  padding: 0.3rem 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.sched-sem-tab.active, .sched-sem-tab:hover {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+/* ── Left panel ───────────────────────────────── */
+#browser {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid var(--border);
+}
+
+/* Summer panel */
+#browser-summer {
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+#browser-summer.active {
+  display: flex;
+  flex: 1;
+}
+
+/* Shared course view (fall + spring) */
+#browser-course-view {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+#browser-course-view.hidden {
+  display: none;
+}
+
+/* Spring core bar — hidden by default, shown when spring tab active */
+#spring-core-bar {
+  display: none;
+  flex-direction: column;
+  border-bottom: 1px solid var(--border);
+  max-height: 220px;
+  overflow-y: auto;
+}
+#spring-core-bar.visible {
+  display: flex;
+}
+
+#filters {
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#search {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.45rem 0.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.85rem;
+  outline: none;
+}
+#search:focus { border-color: var(--accent); }
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+select.filter-select {
+  padding: 0.4rem 0.6rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.82rem;
+  outline: none;
+  cursor: pointer;
+}
+select.filter-select:focus { border-color: var(--accent); }
+
+.day-btn {
+  padding: 0.3rem 0.55rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+  user-select: none;
+}
+.day-btn.active, .credit-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.credit-btn {
+  padding: 0.3rem 0.55rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+  user-select: none;
+}
+
+.toggle-btn {
+  padding: 0.35rem 0.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+.toggle-btn.active {
+  background: var(--surface2);
+  border-color: var(--text-dim);
+  color: var(--text);
+}
+
+#results-count {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  padding: 0.4rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+#course-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ── Course card ──────────────────────────────── */
+.course-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem 0.9rem;
+  border-left: 4px solid var(--border);
+  transition: opacity 0.15s, border-color 0.15s;
+  position: relative;
+}
+
+.course-card.status-not-interested {
+  opacity: 0.45;
+}
+.course-card.status-not-interested .card-title {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.course-card.status-planned {
+  border-left-color: var(--green);
+  background: #1a2e1e;
+}
+
+.course-card.has-conflict {
+  outline: 2px solid var(--amber);
+  outline-offset: -2px;
+}
+
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.card-code {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  font-family: monospace;
+}
+
+.card-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0.1rem 0 0.35rem;
+  line-height: 1.3;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.75rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.45rem;
+}
+
+.card-meta .meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card-meta .conflict-icon {
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.spec-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.spec-badge {
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.85;
+}
+
+.required-badge {
+  padding: 0.12rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  background: rgba(99, 102, 241, 0.2);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.spring-badge {
+  padding: 0.12rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid var(--green);
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+
+.btn-plan {
+  background: var(--surface2);
+  border-color: var(--border);
+  color: var(--text-muted);
+}
+.btn-plan:hover { border-color: var(--green); color: var(--green); }
+.btn-plan.planned {
+  background: #16361a;
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.btn-nope {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-dim);
+}
+.btn-nope:hover { border-color: var(--red); color: var(--red); }
+.btn-nope.active {
+  background: #2d1515;
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.multi-badge {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6366f1, #ec4899);
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+/* ── Right panel ──────────────────────────────── */
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background: var(--surface);
+}
+
+.panel {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.panel-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin: 0 0 0.75rem;
+}
+
+/* Plan list */
+#plan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.plan-sem-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  padding: 0.4rem 0 0.2rem;
+}
+.plan-sem-completed { color: var(--green); opacity: 0.7; }
+.plan-item-prior {
+  border-left-color: var(--text-dim);
+  opacity: 0.7;
+}
+
+.plan-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  background: var(--surface2);
+  border-radius: 7px;
+  border-left: 3px solid var(--green);
+  cursor: default;
+}
+
+.plan-item.conflict {
+  border-left-color: var(--amber);
+  background: #2a2010;
+}
+
+.plan-item-body { flex: 1; min-width: 0; }
+
+.plan-item-code {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  font-family: monospace;
+}
+
+.plan-item-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.plan-item-time {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 0.1rem;
+}
+
+.plan-item-credits {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  margin-top: 0.15rem;
+}
+
+.plan-item-remove {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+  flex-shrink: 0;
+}
+.plan-item-remove:hover { color: var(--red); }
+
+.empty-hint {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+/* ── Spring core bar ─────────────────────────── */
+#spring-core-bar {
+  padding: 0.6rem 1rem;
+  gap: 0.4rem;
+}
+
+.spring-core-header {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.spring-core-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.spring-core-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
+  gap: 0.5rem;
+}
+
+.spring-core-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+}
+
+.spring-core-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.spring-core-cr {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.spring-core-note {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+.spring-electives-note {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.spring-electives-note p {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.spring-electives-note code {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  background: var(--bg);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* ── Summer semester panel ────────────────────── */
+#browser-summer.active {
+  overflow-y: auto;
+  padding: 1rem;
+  gap: 0.75rem;
+}
+
+#summer-completed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summer-section-header {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  padding: 0.5rem 0 0.25rem;
+}
+
+.summer-course-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--green);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+}
+
+.summer-course-row.core-row {
+  border-left-color: var(--text-dim);
+  opacity: 0.75;
+}
+
+.summer-course-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.summer-course-code {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.summer-course-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0.1rem 0;
+}
+
+.summer-course-cr {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.summer-spec-assign {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.summer-spec-select {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  max-width: 160px;
+  cursor: pointer;
+}
+
+.summer-spec-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.summer-completed-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  opacity: 0.8;
+}
+
+/* Spec tracker */
+#spec-tracker {
+  flex-shrink: 0;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.spec-row {
+  margin-bottom: 0.8rem;
+}
+
+.spec-row-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+  gap: 0.5rem;
+}
+
+.spec-row-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spec-row-count {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.spec-bar-bg {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  margin-bottom: 0.3rem;
+}
+
+.spec-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.2s;
+}
+
+.spec-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.spec-chip {
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  white-space: nowrap;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spec-assign-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+  gap: 0.5rem;
+}
+
+.spec-assign-summary {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.spec-assign-btn {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.spec-assign-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.spec-row-complete .spec-row-name { color: #3fb950; }
+.spec-row-complete .spec-row-count { color: #3fb950; }
+
+/* Chip: course credits counting toward THIS spec */
+.spec-chip.counting {
+  border-style: solid;
+  border-color: var(--accent);
+  color: var(--text);
+  background: rgba(88, 166, 255, 0.08);
+}
+
+/* Chip: course exists in this spec but credits assigned elsewhere — clickable to reassign */
+.spec-chip.elsewhere {
+  opacity: 0.45;
+  border-style: dashed;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.spec-chip.elsewhere:hover { opacity: 0.85; border-color: var(--accent); }
+
+.chip-elsewhere-label {
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  font-weight: 400;
+  pointer-events: none;
+}
+
+/* Stats bar */
+#stats {
+  padding: 0.65rem 1rem;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 1.25rem;
+  flex-shrink: 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  margin-top: 0.15rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── Schedule view ────────────────────────────── */
+
+/* Stats strip */
+#sched-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.sched-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+}
+.sched-stat-label {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.15rem;
+}
+.sched-stat-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+.sched-stat-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* Calendar wrapper */
+#sched-calendar-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow-x: auto;
+}
+
+#sched-calendar {
+  display: grid;
+  /* time-axis + day columns set dynamically by JS */
+  min-width: 600px;
+}
+
+.cal-time-axis {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+}
+
+.cal-time-header {
+  height: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cal-time-cell {
+  height: 70px;
+  padding: 0 0.5rem;
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4px;
+  border-bottom: 1px solid #1e2d3d;
+}
+
+.cal-day-col {
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+.cal-day-col:last-child { border-right: none; }
+
+.cal-day-header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 0.05em;
+}
+
+.cal-day-body {
+  position: relative;
+  flex: 1;
+}
+
+/* Hour grid lines inside day body */
+.cal-day-body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 69px,
+    #1e2d3d 69px,
+    #1e2d3d 70px
+  );
+  pointer-events: none;
+}
+
+/* Course block */
+.cal-block {
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  border-radius: 7px;
+  padding: 5px 7px;
+  overflow: hidden;
+  cursor: default;
+  transition: filter 0.12s;
+}
+.cal-block:hover { filter: brightness(1.15); }
+
+.cal-block-code {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.2;
+}
+.cal-block-title {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.2;
+  margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cal-block-time {
+  font-size: 0.67rem;
+  color: rgba(255,255,255,0.6);
+  margin-top: 2px;
+}
+.cal-block-instructor {
+  font-size: 0.65rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cal-block-badge {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 1px 5px;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  background: rgba(0,0,0,0.25);
+  color: rgba(255,255,255,0.8);
+}
+.cal-block-starts {
+  font-size: 0.63rem;
+  color: rgba(255,255,255,0.55);
+  font-style: italic;
+  margin-top: 1px;
+}
+
+/* Session type colors */
+.cal-block.session-full   { background: #1a3a5c; border: 1px solid #2d5f9a; }
+.cal-block.session-1half  { background: #3d2d00; border: 1px solid #a07000; }
+.cal-block.session-2half  { background: #143d1f; border: 1px solid #22763a; }
+.cal-block.session-other  { background: #2d1a3d; border: 1px solid #6b3fa0; }
+
+/* Legend */
+#sched-legend {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* Phase timeline */
+#sched-phases-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+}
+#sched-phases {
+  display: flex;
+  gap: 3px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.phase-seg {
+  flex: 1;
+  min-width: 80px;
+  padding: 0.5rem 0.65rem;
+  border-radius: 7px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+}
+.phase-dates {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+.phase-label {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+  line-height: 1.3;
+}
+#sched-phases-note {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  margin: 0.6rem 0 0;
+  font-style: italic;
+}
+
+.empty-schedule {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
